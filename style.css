@@ -1,0 +1,89 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.calculator{
+    background-color:#000;
+    width: 230px;
+    border-radius: 10px;
+    margin: 80px auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+#display{
+    width: 100%;
+    height: 110px;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    padding: 10px;
+    background-color: #000;
+    margin-bottom: 10px;
+    color: white;
+    padding-top: 65px;
+}
+.lineone,.linetwo,.linethree,.linefour,.linefive{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 5px;
+}
+.one{
+    border-radius: 50%;
+    background: #8E8E93;
+    width: 45px;
+    height: 45px;
+    border: none;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.one:hover{
+    background: #bcbcbc;
+}
+
+.two,.three,.four,.five{
+    border-radius: 50%;
+    background: #505050;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border: none;
+    margin: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.two:hover,.three:hover,.four:hover,.five:hover{
+background: #3b3b3b;
+}
+.one1,.two1,.three1,.four1,.five1{
+    border-radius: 50%;
+    background: #ff9500;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border: none;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.one1:hover,.two1:hover,.three1:hover,.four1:hover,.five1:hover{
+    background: #e68a00;
+    color: #000;
+}
+
+
+    
